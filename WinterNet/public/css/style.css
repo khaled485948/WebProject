@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'segoe ui light','Winky Sans' ,sans-serif;
+}
+.home{
+
+    background-image: url(./../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.home .nav-bar{
+    background-color:rgb(0,0,0,0);
+
+}
+
+.home .nav-bar .container.logo{
+    float:left;
+    
+}
+.home .nav-bar .container .logo img{
+    width: 180px;
+    padding-top: 15px;
+}
+
+.home .nav-bar .container .list li{
+    float:right;
+    padding: 0 25px;
+}
+.home .nav-bar .container .list ul{
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+    
+.home .nav-bar .container .list li a{
+    text-decoration: none;
+    color: #fff;
+}
+.clear{
+    clear:both;
+}
+.container{
+    width:80%;
+    margin: auto;
+}
+.welcome{
+    text-align: center;
+}
+.words{
+    margin: 200px 0 0 0;
+    font-size: 27px;
+    color:#fff;
+}
+.bot
+{
+    margin: 25px;
+}
+.bot1
+{
+    background-color:#8E7754 ;
+    padding: 20px;
+    border: 0;
+    border-radius: 5px;
+    color:#fff;
+    font-weight: bold;
+}
+.bot2
+{
+    background-color: transparent;
+    padding: 20px;
+    border: 1;
+    border-color: #fff;
+    border-radius: 5px;
+    color:#fff;
+    font-weight: bold;
+}
+
+
+.who-we .container .left{
+    float:left;
+    width:45%;
+    padding: 85px 0 ;
+
+    
+}
+.who-we .container .left img{
+    width:100%;
+}
+
+.who-we .container .right{
+    float: right;
+    width: 50%;
+    text-align: left;
+    margin-top: 120px;
+    
+}
+.who-we .container .right h1
+{
+    padding:30px;
+}
+.who-we .container .right p
+{
+    line-height :40px; 
+}
+
+.who-we .container .right .icon img
+{
+    width: 50px;
+}
+.who-we .container .right .icon table
+{
+    padding: 10px;
+}
+
+.our-loc
+{
+    background-color: #f8f8f8;
+}
+.our-loc .container .loc-left{
+    float:left;
+    width:50%;
+    text-align: left;
+    
+    padding:100px 0;
+}
+.our-loc .container .loc-left h2{
+    padding: 10px;
+}
+.our-loc .container .loc-left p{
+    line-height: 30px;
+}
+
+.our-loc .container .loc-right{
+    float:right;
+    width:45%;
+    padding: 10px 30px ;
+}
+.our-loc .container .loc-right img{
+    width:100%;
+}
+
+.our-bak .container{
+    text-align: center;
+    padding-top: 60px;
+}
+.our-bak .container h1{
+    padding: 30px 0;
+}
+
+.our-bak .container p{
+    padding-bottom: 30px ;
+    color:#978888;
+}
+
+.our-bak .container .bak{
+    float:left;
+    width:30%;
+    padding: 20px;
+
+}
+
+.our-bak .container .bak img{
+    width:100%;
+}
+.our-bak .container .bak h3{
+    padding: 15px;
+}
+
+.our-bak .container .bak p{
+
+    line-height: 30px;
+}
+
+.info{
+    background-color: #f8f8f8;
+}
+.info .container .left-info{
+    float: left;
+    width: 50%;
+    padding: 40px 0;
+    color: #303030;
+}
+
+.info .container .left-info h1{
+    margin-top: 70px;
+    
+
+
+}
+.info .container .left-info p{
+    padding: 20px 0;
+}
+.info .container .left-info img{
+    width: 50px;
+    background-color: #8E7754;
+}
+
+
+
+.info .container .right-info iframe{
+    float:right; 
+    width:40%;
+    height: 475px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+hr {
+    border-color: gray;
+    width: 270px;
+}
+.end {
+    background-color: #655b48;
+    
+}
+
+.end .container .sec1 , .sec2 , .sec3 , .sec4 {
+    width: 23%;
+    color:#fff;
+    padding: 5px;
+    margin: 40px 0;
+    line-height: 40px;
+}
+.end .container .sec2 ul , .sec3 ul , .sec4 ul{
+    list-style-type: none;
+}
+
+.end .container .sec3 img , .sec4 img , .sec2 img{
+    width: 20px;
+}
+
+.end .container .sec1 , .sec2 , .sec3 , .sec4{
+    float: left;
+}
+
+.finish{
+    background-color:#353330 ;
+}
+.finish .bakr{
+        
+        width:100%;
+        text-align: center;
+        color: #fff;
+        padding:90px 0 130px 0;
+}
+.finish .bakr p{
+    padding: 30px 0;
+}
+.finish .bakr .im{
+    width: 50px;
+}
